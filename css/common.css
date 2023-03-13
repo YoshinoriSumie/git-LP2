@@ -911,6 +911,10 @@ header .drawer {
 
 /* 480px以下 ------------------------*/
 @media screen and (max-width:480px) {
+  .start-wrapper__contents__item__ttl h3 span {
+    display: inline-block;
+  }
+  
   .__sp {
     display: inline-block;
   }
